@@ -1,0 +1,15 @@
+# freshly produced benchmark output — regenerate with scripts/run_bench.ps1
+data/result_*.csv
+data/raw_*/
+report/data/result_*.csv
+report/data/raw_*/
+
+# local machine state
+.env
+__pycache__/
+*.pyc
+
+# OS noise
+Thumbs.db
+desktop.ini
+.DS_Store
